@@ -24,12 +24,22 @@ pip install -r requirements.txt
 
 ## Inference
 
+Let's run one inference on a cat's picture:
+
+
+<p align="center">
+  <img src="images/cat.jpg" width="300">
+</p>
+
 ### Command
+
 ```
-export GOOGLE_API_KEY=AIzaSyD...4aA; python vision.py /tmp/cat.jpg
+export GOOGLE_API_KEY=AIzaSyD...4aA; python vision.py images/cat.jpg
 ```
 
 ### Output
+
+You should get something like:
 
 <details>
  <summary>Show details</summary>
@@ -125,7 +135,7 @@ export GOOGLE_API_KEY=AIzaSyD...4aA; python vision_server.py
 In another tab, run this command to query the server:
 
 ```
-python query.py /tmp/cat.jpg 0.0.0.0
+python query.py images/cat.jpg 0.0.0.0
 ```
 
 The first argument is the image. The second argument is the server IP. If you run everything locally, then it's 0.0.0.0. You can host the server on Amazon AWS. In that case, you will have to change it to the IP Amazon gives you.
