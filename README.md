@@ -11,7 +11,7 @@
 
 - Browse here: [https://cloud.google.com/vision/](https://cloud.google.com/vision/)
 - Create a Google account. You might be lucky and get $300 of free usage.
-- Activate the Vision API.
+- Activate the Vision API with the free trial.
 - Browse here: [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials)
 - Go to credentials tab and create a new one (cf. screenshot below). **Create Credentials > API Key**.
 
