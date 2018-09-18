@@ -2,7 +2,7 @@
 Made easy!
 
 <p align="center">
-  <img src="https://i0.wp.com/www.grapheine.com/wp-content/uploads/2015/09/nouveau-logo-google.png?resize=750%2C371&ssl=1" width="400">
+  <img src="https://lanouvelletribune.info/buzz/wp-content/uploads/2018/03/google_LOGO.jpg" width="400">
 </p>
 
 ## Get started in 2 min!
@@ -10,6 +10,7 @@ Made easy!
 ### Get the API key
 
 - Browse here: [https://cloud.google.com/vision/](https://cloud.google.com/vision/)
+- Create a Google account. You might be lucky and get $300 of free usage.
 - It should look like this: `AIzaSyD...4aA`. Mine has 39 characters.
 
 ### Run those commands to install the lib
