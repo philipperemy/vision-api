@@ -2,7 +2,7 @@
 Made easy!
 
 <p align="center">
-  <img src="https://i0.wp.com/www.grapheine.com/wp-content/uploads/2015/09/nouveau-logo-google.png?resize=750%2C371&ssl=1" width="200">
+  <img src="https://i0.wp.com/www.grapheine.com/wp-content/uploads/2015/09/nouveau-logo-google.png?resize=750%2C371&ssl=1" width="400">
 </p>
 
 ## Get started in 2 min!
