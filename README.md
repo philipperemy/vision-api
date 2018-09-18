@@ -1,5 +1,5 @@
 # Google Vision API
-Made easy!
+*Made easy! Cloud Vision API enables developers to understand the content of an image by encapsulating powerful machine learning models in an easy-to-use REST API. It quickly classifies images into thousands of categories (such as, “sailboat”), detects individual objects and faces within images, and reads printed words contained within images. You can build metadata on your image catalog, moderate offensive content, or enable new marketing scenarios through image sentiment analysis.*
 
 <p align="center">
   <img src="https://lanouvelletribune.info/buzz/wp-content/uploads/2018/03/google_LOGO.jpg" width="400">
@@ -11,7 +11,7 @@ Made easy!
 
 - Browse here: [https://cloud.google.com/vision/](https://cloud.google.com/vision/)
 - Create a Google account. You might be lucky and get $300 of free usage.
-- It should look like this: `AIzaSyD...4aA`. Mine has 39 characters.
+- Go to credentials tab and create a new one. My key had 39 characters.
 
 ### Run those commands to install the lib
 
@@ -30,6 +30,10 @@ export GOOGLE_API_KEY=AIzaSyD...4aA; python vision.py /tmp/cat.jpg
 ```
 
 ### Output
+
+<details>
+ <summary>Show details</summary>
+
 ```
 {
     "responses": [
@@ -107,6 +111,8 @@ export GOOGLE_API_KEY=AIzaSyD...4aA; python vision.py /tmp/cat.jpg
     ]
 }
 ```
+</details>
+
 
 ## Server mode
 
