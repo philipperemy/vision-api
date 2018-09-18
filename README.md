@@ -11,7 +11,11 @@
 
 - Browse here: [https://cloud.google.com/vision/](https://cloud.google.com/vision/)
 - Create a Google account. You might be lucky and get $300 of free usage.
-- Go to credentials tab and create a new one. My key had 39 characters.
+- Activate the Vision API.
+- Browse here: [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials)
+- Go to credentials tab and create a new one.
+
+
 
 ### Run those commands to install the lib
 
