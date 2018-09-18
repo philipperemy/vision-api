@@ -1,5 +1,5 @@
 # Google Vision API
-*Made easy! Cloud Vision API enables developers to understand the content of an image by encapsulating powerful machine learning models in an easy-to-use REST API. It quickly classifies images into thousands of categories (such as, “sailboat”), detects individual objects and faces within images, and reads printed words contained within images. You can build metadata on your image catalog, moderate offensive content, or enable new marketing scenarios through image sentiment analysis.*
+*Made easy! Cloud Vision API enables developers to understand the content of an image by encapsulating powerful machine learning models in an easy-to-use REST API. It quickly classifies images into thousands of categories (such as, “sailboat”), detects individual objects and faces within images, and reads printed words contained within images.*
 
 <p align="center">
   <img src="https://lanouvelletribune.info/buzz/wp-content/uploads/2018/03/google_LOGO.jpg" width="400">
@@ -116,17 +116,17 @@ export GOOGLE_API_KEY=AIzaSyD...4aA; python vision.py /tmp/cat.jpg
 
 ## Server mode
 
-Start the server:
+Start the server by running this command in a terminal tab:
 
 ```
 export GOOGLE_API_KEY=AIzaSyD...4aA; python vision_server.py
 ```
 
-In another tab you can query the server:
+In another tab, run this command to query the server:
 
 ```
 python query.py /tmp/cat.jpg 0.0.0.0
 ```
 
-You can also host the server on Amazon AWS for example. You will have to change the IP to the IP Amazon gives you.
+The first argument is the image. The second argument is the server IP. If you run everything locally, then it's 0.0.0.0. You can host the server on Amazon AWS. In that case, you will have to change it to the IP Amazon gives you.
 
