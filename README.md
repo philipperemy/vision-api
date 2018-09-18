@@ -108,7 +108,7 @@ export GOOGLE_API_KEY=AIzaSyD...4aA; python vision.py /tmp/cat.jpg
 Start the server:
 
 ```
-python vision_server.py
+export GOOGLE_API_KEY=AIzaSyD...4aA; python vision_server.py
 ```
 
 In another tab you can query the server:
