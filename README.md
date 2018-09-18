@@ -41,7 +41,7 @@ Let's run one inference on a cat's picture:
 ### Command
 
 ```
-export GOOGLE_API_KEY=AIzaSyD...4aA; python vision.py images/cat.jpg
+export GOOGLE_API_KEY=<API_KEY>; python vision.py images/cat.jpg
 ```
 
 ### Output
@@ -136,7 +136,7 @@ You should get something like:
 Start the server by running this command in a terminal tab:
 
 ```
-export GOOGLE_API_KEY=AIzaSyD...4aA; python vision_server.py
+export GOOGLE_API_KEY=<API_KEY>; python vision_server.py
 ```
 
 In another tab, run this command to query the server:
