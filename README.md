@@ -22,7 +22,7 @@
 
 ### Run those commands to install the lib
 
-```
+```bash
 git clone git@github.com:philipperemy/vision-api.git && cd vision-api
 virtualenv -p python3 venv
 source venv/bin/activate
@@ -135,13 +135,13 @@ You should get something like:
 
 Start the server by running this command in a terminal tab:
 
-```
+```bash
 export GOOGLE_API_KEY=<API_KEY>; python vision_server.py
 ```
 
 In another tab, run this command to query the server:
 
-```
+```bash
 python query.py images/cat.jpg 0.0.0.0
 ```
 
